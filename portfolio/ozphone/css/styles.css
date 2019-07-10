@@ -1,0 +1,176 @@
+body {
+    font-family: "Raleway";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+.row {
+    margin-bottom: 1%;
+}
+
+/* Headings */
+.large-heading {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 1% 15%;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Banner */
+
+#banner {
+    background-color: #49beb7;
+    color: white;
+    text-align: left;
+}
+
+.billboard-item {
+    padding: 2% 20%;
+}
+
+.banner-image {
+    width: 70%;
+}
+
+.col-center {
+    margin: auto;
+}
+
+/* Phone Plans Section */
+
+#phone-plans {
+    padding: 3% 20%;
+    background-color: lightgray;
+}
+
+.plan-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #49beb7;
+}
+
+.plan-box-button:hover {
+    color: #fff;
+    background-color: #222831;
+}
+
+/* Mobile Phones Section */
+
+#mobile-phones {
+    padding: 3% 15%;
+}
+
+.phone-card {
+    border-width: 0;
+    border-radius: 15px;
+}
+
+.phone-card:hover {
+    background-color: #222831;
+    color:#fff;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out;
+}
+
+.phone-image {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.phone-btn {
+    width: 100%;
+    background-color: #222831;
+    color: white;
+}
+.phone-card:hover .phone-btn {
+    background-color: #fff;
+    color: black;
+}
+
+/* Plans Section */
+
+#plan-selections {
+    padding: 3% 15%;
+    background-color: lightgray;
+}
+
+.plan-column {
+    padding: 3% 2%;
+}
+
+#plan-selections .card {
+    border-width:  1px;
+    border-color: #222831;
+    font-weight: 700;
+}
+
+#plan-selections .card-header {
+    background-color: #49beb7;
+}
+
+.plan-type {
+    height: 50px;
+    background-color: #eaeaea;
+}
+
+.shop-btn {
+    width: 100%;
+}
+
+#plan-selections .row > div[class*='col-lg-3'] {
+    display: flex;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 3% 15%;
+    background-color: #222831;
+    color:#fff;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 990px) {
+    #banner {
+        text-align: center;
+    }
+
+    #plan-selections .row > div[class*='col-lg-3'] {
+        display: block;
+    }
+}
